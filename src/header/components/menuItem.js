@@ -2,9 +2,9 @@ import React from 'react'
 import './menuItem.css'
 
 const MenuItem = (props) => (
-    <li>
+    <a className="Menu-Item" href="#">
         {props.name}
-    </li>
+    </a>
 )
 
 export default MenuItem

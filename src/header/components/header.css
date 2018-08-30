@@ -1,3 +1,12 @@
+.Header {
+    background-color: #EEEEEE;
+    height: auto;
+}
+
 .Header-Menu-List {
-    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 16px;
 }

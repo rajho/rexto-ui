@@ -1,0 +1,35 @@
+.Currency-Exchange{
+    background-color: #E0E0E0;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Currency-Exchange-form{
+    padding: 24px 0px;
+    text-align: center;
+}
+
+.Currency-Exchange-input-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.Currency-Exchange-input{
+    height: 32px;
+    width: 120px;
+    padding-left: 8px;
+    margin-left: 16px;
+    text-align: center;
+}
+
+.Currency-Exchange-button{
+    margin-top: 12px;
+    margin-bottom: 0px;
+    display: inline-block;
+    height: 36px;
+}

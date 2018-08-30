@@ -2,7 +2,9 @@ import React from 'react'
 import Header from "../../header/components/header"
 
 const BaseLayout = (props) => (
-    <Header />
+    <section>
+        {props.children}
+    </section>
 )
 
 export default BaseLayout

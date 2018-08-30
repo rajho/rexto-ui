@@ -5,7 +5,7 @@ module.exports = {
         moneyxchange: path.resolve(__dirname, '../src/entries/index.js'),
     },
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, '../dist'),
         filename: 'js/[name].js'
     },
     devServer: {

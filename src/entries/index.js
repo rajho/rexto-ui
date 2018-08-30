@@ -1,6 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom'
-import Base from '../base/components/base-layout'
+import Base from '../base/containers/base'
 
 
 const app = document.getElementById('app')
