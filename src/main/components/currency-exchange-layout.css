@@ -17,11 +17,12 @@
     flex-direction: row;
     justify-content: center;
     text-align: center;
+    margin-bottom: 28px;
 }
 
 .Currency-Exchange-input{
     height: 32px;
-    width: 120px;
+    width: 320px;
     padding-left: 8px;
     margin-left: 16px;
     text-align: center;
@@ -31,5 +32,9 @@
     margin-top: 12px;
     margin-bottom: 0px;
     display: inline-block;
-    height: 36px;
+    background-color: #5c6bc0;
+    color: white;
+    font-size: 14px;
+    height: 44px;
+    width: 140px;
 }

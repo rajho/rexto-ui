@@ -22,12 +22,12 @@ const CurrencyExchangeLayout = (props) => (
                     type="text"
                     onChange={props.handleChangeToCurrency}
                     placeholder="EU"
-                    value={props.toAmount}/>
+                    value={props.toAmount} disabled/>
             </div>
             <input
                 type="submit"
                 className="Currency-Exchange-button"
-                value="Cotizar">
+                value="CALCULATE">
             </input>
         </form>
     </section>
